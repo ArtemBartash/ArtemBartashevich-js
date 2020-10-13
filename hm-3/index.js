@@ -19,3 +19,14 @@ let time_left = (1440 - time_in_min);
 let hour_left = (time_left / 60);
 let minute_left = (time_left % 60);
 alert(hour_left, minute_left);*/
+
+/*let year = process.argv[2];
+switch(year % 4)
+{
+    case 0:
+        console.log("Высокосный");
+        break;
+    default:
+        console.log("Попробуй еще раз");
+        break;
+}*/
