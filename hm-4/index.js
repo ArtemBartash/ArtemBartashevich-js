@@ -35,6 +35,45 @@ console.log(`|${num}| = `,Math.abs(num));*/
 
 //Запросить координаты точки (x, y) и определить номер четверти, в которую попала эта точка. Необходимо учесть случаи попадания точки на оси X или Y или в начало координат.
 
+/*let x = +process.argv[2];
+let y = +process.argv[3];
+if(x === 0 && y === 0)
+{
+    console.log('начало координат');
+}
+else
+{
+    if(x > 0 && y > 0)
+    {
+        console.log('Первая четверть');
+    }
+    else 
+    {
+        if(x < 0 && y > 0)
+        {
+            console.log('Вторая четверть');
+        }
+        else
+        {
+            if(x < 0 && y < 0)
+            {
+                console.log('Третья четверть');
+            }
+            else
+            {
+                if(x > 0 && y < 0)
+                {
+                    console.log('Четвертая четверть');
+                }
+                else 
+                {
+                    console.log('На координатной оси');
+                }
+            }
+        }
+    }
+}*/
+
 //Запросить у пользователя номер месяца и вывести на экран его название. 
 
 /*let month = +process.argv[2];
@@ -83,3 +122,10 @@ switch(month)
 
 //Реализовать калькулятор. Пользователь вводит 2 числа и знак (+ - * /). В зависимости от введенного знака решить пример и вывести результат.
 
+/*let num1 = +process.argv[2]
+let num2 = +process.argv[3]
+let sum = number1 + number2
+let min = number1 - number2
+let op = number1 * number2
+const deg = number1 / number2
+console.log(`$sum ${sum} ${min} ${op} ${deg}`)*/
