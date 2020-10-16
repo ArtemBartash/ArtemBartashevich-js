@@ -24,3 +24,12 @@ while(first_number != second_number)
 }
 console.log(first_number);*/
 
+//3.Запросить у пользователя число и вывести все делители этого числа.
+/*let number = Number(process.argv[2]);
+for(let i = 1; i <= number; i++)
+{
+    if(number % i === 0)
+    {
+        console.log(i);
+    }
+}*/
