@@ -151,10 +151,37 @@ switch(month)
 
 //Реализовать калькулятор. Пользователь вводит 2 числа и знак (+ - * /). В зависимости от введенного знака решить пример и вывести результат.
 
-/*let num1 = +process.argv[2]
-let num2 = +process.argv[3]
-let sum = number1 + number2
-let min = number1 - number2
-let op = number1 * number2
-const deg = number1 / number2
-console.log(`$sum ${sum} ${min} ${op} ${deg}`)*/
+/*let first_number = +(process.argv[2]);
+let second_number = +(process.argv[3]);
+let operator = process.argv[4];
+
+if(isNaN(first_number) || isNaN(second_number)) {
+    console.log('Введены некорректные числа');
+} else if (
+    operator !== '+' &&
+    operator !== '-' &&
+    operator !== '*' &&
+    operator !== '/'
+) {
+    console.log('Введен некорректный оператор');
+} else {
+    let result;
+
+    switch(operator) {
+        case '+':
+            result = first_number + second_number;
+            break;
+        case '-':
+            result = first_number - second_number;
+            break;
+        case '*':
+            result = first_number * second_number;
+            break;
+        case '/':
+            if(second_number === 0)
+            console.log('Нельзя делить на 0');
+            result = first_number / second_number;
+            break;
+    }
+    alert(${first_number} ${operator} ${second_number} = ${result});
+}*/
