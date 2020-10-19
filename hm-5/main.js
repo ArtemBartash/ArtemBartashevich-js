@@ -33,3 +33,28 @@ for(let i = 1; i <= number; i++)
         console.log(i);
     }
 }*/
+
+//4.Определить количество цифр в введенном числе. 
+/*let number = Number(process.argv[2]);
+let quantity = 0;
+while(number > 1)
+{
+    number /= 10;
+    quantity++;
+}
+console.log(quantity);*/
+
+//7.Запросить у пользователя число и на сколько цифр его сдвинуть.Запросить у пользователя число и на сколько цифр его сдвинуть.
+let number = Number(process.argv[2]);
+let sdvig = Number(process.argv[3]);
+let quantity = 0;
+    while(number > 1)
+    {
+        number /= 10;
+        quantity++;
+    }
+for(let i = 0; i < sdvig; i++)
+{
+    number *= Math.pow(10,(quantity));
+}
+console.log(number);
