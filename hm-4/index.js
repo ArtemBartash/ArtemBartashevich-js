@@ -183,5 +183,5 @@ if(isNaN(first_number) || isNaN(second_number)) {
             result = first_number / second_number;
             break;
     }
-    alert(${first_number} ${operator} ${second_number} = ${result});
+    console.log(${first_number} ${operator} ${second_number} = ${result});
 }*/
