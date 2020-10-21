@@ -45,16 +45,20 @@ while(number > 1)
 console.log(quantity);*/
 
 //7.Запросить у пользователя число и на сколько цифр его сдвинуть.Запросить у пользователя число и на сколько цифр его сдвинуть.
-let number = Number(process.argv[2]);
+/*let number = Number(process.argv[2]);
 let sdvig = Number(process.argv[3]);
-let quantity = 0;
-    while(number > 1)
+let quantity = number;
+let k = 0;
+let separated;
+    while(quantity > 1)
     {
-        number /= 10;
-        quantity++;
+        quantity /= 10;
+        k++;
     }
 for(let i = 0; i < sdvig; i++)
 {
-    number *= Math.pow(10,(quantity));
+    separated %= Math.pow(10,(k - 1));
+    
 }
-console.log(number);
+console.log(k);
+console.log(separated);*/
