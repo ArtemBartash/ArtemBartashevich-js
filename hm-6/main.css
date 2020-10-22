@@ -1,5 +1,103 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Grandstander', cursive;
+}
+.connection {
+	list-style-type: none;
+}
+
+.wrap {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0,0,0,.7), rgba(0,0,0,.7)), url(./img/nature.jpg)no-repeat center center;
+    background-size: cover;
+}
+.card-person {
+    display: flex; 
+    width: 50%;
+    padding:11%;
+}
+
+.person__icon {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #86878B;  
+    align-items: center;
+}
+
+img {
+    margin-top: 15%;
+    margin-bottom: 7%;
+    display: flex;  
+    width: 29%;
+    height: 30%;
+    border-radius: 50%;
+}
+.person__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.person__name {
+    color: #f5f5f5;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    background: transparent;
+}
+
+.major {
+    text-align: center;
+    color: #ffd700;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: transparent;
+    padding-top: 3%;
+}
+
+.card-info {
+    display: flex;
+    width: 50%;
+    padding-top: 5%;
+}
+.info__title {
+    color: #f5f5f5;
+    font-weight: 400;
+    font-size: 36px;
+    background: transparent;
+}
+.info__text {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    color: #86878B;
+    font-weight: 400;
+    font-size: 16px;
+    background: transparent;
+}
+.Big-Fax {
+    color: #86878B;
+    font-size: 16px;
+    font-weight: 400;
+    background: transparent;
+    margin-bottom: 3%;
+}
+.fax {
+    margin-top: 2%;
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed #ddd;
+}
+
+.con {
+    margin-top: 4%;
+    color: #f5f5f5;
+    font-weight: 400;
+    font-size: 16px;
+    background: transparent;
 }
